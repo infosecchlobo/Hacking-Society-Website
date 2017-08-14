@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leeds Hacking Society</title>
+    <description>Leeds Hacking Society Website</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 31 Jul 2017 18:17:51 +0100</pubDate>
+    <lastBuildDate>Mon, 31 Jul 2017 18:17:51 +0100</lastBuildDate>
+    <generator>Jekyll v3.5.1</generator>
+    
+      <item>
+        <title>New Website, AGM Results and Other Miscellaneous Updates!</title>
+        <description>&lt;h3 id=&quot;welcome-to-the-new-website&quot;&gt;Welcome to the new website!&lt;/h3&gt;
+
+&lt;p&gt;Hello Everyone,
+Welcome to the new Leeds Hacking Society Website. We have been busy over Summer rebranding and putting everything together ready for the new term. We hope you like it!&lt;/p&gt;
+
+&lt;p&gt;If you are interested in our Society or wish to contact us, please feel free to message us on the Facebook page or drop us an Email.&lt;/p&gt;
+
+&lt;h3 id=&quot;agm-results&quot;&gt;AGM results:&lt;/h3&gt;
+
+&lt;p&gt;The results of the 2017 AGM are as follows:
+President: Charlotte Howarth
+Secretary: Chlöe Ungar
+VP: Rohan Stevenson
+Treasurer: Alex Close
+Social Secretary: Thomas Barber&lt;/p&gt;
+</description>
+        <pubDate>Sat, 01 Jul 2017 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/articles/2017-07/welcome</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2017-07/welcome</guid>
+        
+        
+        <category>Miscellaneous</category>
+        
+      </item>
+    
+  </channel>
+</rss>

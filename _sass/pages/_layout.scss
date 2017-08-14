@@ -1,0 +1,97 @@
+/* LAYOUT CSS */
+.cover {
+  background-color: $background-color;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  min-height: 400px;
+  padding: 30px 15px 20px;
+  z-index: 1;
+  @include media-query($small-screen) {
+    background-position: center;
+    padding: 30px;
+  }
+  @include media-query($medium-screen) {
+    height: 100vh;
+    position: initial;
+    width: 100%;
+  }
+}
+.cover-card {
+  color: $text-color;
+  padding: 0 30px;
+  .avatar {
+    float: none;
+  }
+  .author_name {
+    display: block;
+    color: #F36170;
+    font-size: 1.75em;
+    text-transform: lowercase;
+  }
+  .author_job {
+    display: block;
+    color: #ffbb57;
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: -5px auto 10px;
+  }
+  .author_bio {
+    font-size: 90%;
+    display: block;
+    color: white;
+  }
+  @include media-query($medium-screen) {
+    margin: 0 auto;
+    padding: 0 0px 80px;
+  }
+}
+.social-links {
+  margin-top: 0.5em;
+  ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    li {
+      list-style: none;
+      display: inline-block;
+      margin-left: 1em;
+      a.social-link-item {
+        color: #ffbb57;
+        &:hover,
+        &:focus {
+          color: lighten($secondary, 14%);
+        }
+      }
+    }
+  }
+}
+.nav-list {
+  margin: 0;
+  padding: 0;
+  text-align:center;
+  letter-spacing: 2px;
+  text-align: center;
+  .nav-item {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    &:after {
+      content: '/';
+    }
+    &:last-child:after {
+      content: '';
+    }
+    & a {
+      margin-top: 1em;
+      text-transform: uppercase;
+      font-size: 85%;
+      color: #ffbb57; //NAV BAR COLOUR
+      &:hover,
+      &:focus {
+        color: lighten($secondary, 14%);
+      }
+    }
+  }
+}
